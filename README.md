@@ -24,18 +24,15 @@ build_video.pl - Used to select JPG from the extract_catpure.pl to prepare in a 
 
 Usage:
 build_video.pl -i directory -s xx/xx/xxxx -e xx/xx/xxxx -sk X
-        -h, --help
-                print this help message
-        -i, --inputDir=DIRECTORY OF IMAGES
-        -s, --startDate=START DATE TO FILTER
-        -e, --endDate=END DATE TO FILTER
-        -sk, --skip=SKIP X PHOTO
-        -d, --dayWeek=DAY OF WEEK (0=Sunday, 1-5=week days)
-        -l, --solar (Select only from Sunrise to Sunset, don't forget to update Lat Lon and TimeZone)
-	      -f, --deflicker (An attempt to clean up the video))
 
-        ex :
-        Images between Jan 1 and Feb 1 2016 skip every 5th image    : perl build_video.pl -i C:Images -s 1/1/2016 00:00 -e 2/1/2016 00:00 -sk 5
+-h, --help
+-i, --inputDir=DIRECTORY OF IMAGES
+-s, --startDate=START DATE TO FILTER
+-e, --endDate=END DATE TO FILTER
+-sk, --skip=SKIP X PHOTO
+-d, --dayWeek=DAY OF WEEK (0=Sunday, 1-5=week days)
+-l, --solar (Select only from Sunrise to Sunset, don't forget to update Lat Lon and TimeZone)
+-f, --deflicker (An attempt to clean up the video))
 
 Use FFmpeg to build your video.  See other tools.
 
